@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+
+		/* Styling the body element
+		like body color and margin */
+		
+		body {
+			background-color: #00e9fa;
+			margin: 20%;
+		}
+
+		/* Styling the Title and giving
+		shadow to the title */
+		#title {
+			text-align: center;
+			text-shadow: 5px 5px 10px white;
+			font-size: 7vh;
+		}
+
+		/* Setting width and display
+		type of image */
+		img {
+			display: inline-block;
+			width: 100%;
+		}
+
+		/* Setting font color and font
+		size of the image-caption */
+		#caption {
+			font-size: 17px;
+			font-family: Gill Sans;
+			color: black;
+		}
+
+		/* Styling the content of the page like-
+		padding, font-size, font color etc.*/
+		div#tribute-data {
+			background-color: rgb(46, 139, 87, 0.25);
+			box-shadow: 20px 20px 20px #00e9fa;
+			font-family: Georgia;
+			padding: 25px 25px;
+			margin: 11px;
+			margin-top: 50px;
+		}
+
+		/* Styling the title of the content */
+		h1.title-APJ {
+			font-size: 35px;
+			color: white;
+			text-align: center;
+			text-shadow: 5px 5px 10px black;
+		}
+
+		/* Styling the link provided at the end */
+		#tribute-link {
+			text-decoration: none;
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<main id="main">
+
+		<!-- Title of the page -->
+		<h1 id="title">
+			Barack Obama
+		</h1>
+
+		<div id="img">
+
+			<!--Image of the Tribute Person-->
+			<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhYZGBgaHBkYGhkaGBgYGBwYGBoZGhocGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrJSc2NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgMEAAIHAQj/xAA9EAACAQIFAQYEBAMGBwEAAAABAgADEQQFEiExQQYTIlFhcTKBkaFCscHRYnLwUoKSouHxBxQWI7LC8kP/xAAZAQACAwEAAAAAAAAAAAAAAAAAAwECBAX/xAAmEQADAAICAgICAgMBAAAAAAAAAQIDERIhMUEEIjJCUYETcfAj/9oADAMBAAIRAxEAPwDmwE2tPRMMuQQVm6SbD0QwIMoVqnjhXBG+8jZbXQHxNAo1ptgtOtdfF4axOFDqfPpAFRCpsZJASzzutQFLjr7zMsyc1VLXAAguS0cQyX0ki8CD16dmK872/Se18O67sCB6zbDVdLq9r2IO8I57mi1goC2I58v9YADsPi3RSqnY/T6SxlGNFN9ZUN7wtk+AoPQZma7i+0CYbCs7lEG+/EAD+EzJXrHTsD04hsCJTUWoVVDbEH7R1oNqUHzElAbATa09AntpIGs2UTLT1YAS2ntp6BMgB5aezLTDACrjKoRSx6SvlramDecH9psVZdA5M97K4n8B5HHtKOu9DFDc8i92iyrvE1qPGv3ESqVd0a6kg8es6e7bRP7TZPo/7qjY/EPKWTFsXC5ve9z67xmw2Z1q2GeilPWFW7sNK6R0tc7nbgb7Raw1MuwUdTbeOmGyl8Np8QPeLf202B/8pFVxWy2OVTSYPyVaRw5V1S7Pu5A12BFrMdxB/aTD0lKGmmi4OqzE3ItvuT5whgqDGg6gcM4PoQT+0rZ5QGqjdSFLb7WuPCSPpEqvsaKlcPHooUslqvT7wL4epPpf9oNcb/OM+Pz8oGpIgCMPhNxYEEG0AYTR3i6x4bi9veOT2tmalp6PcJim7xSx9I0KNovZ6UDg0/hH1vD2DfUgPpBEGxWRssnZZqwkgV2E0tJ2WaaYACwJrUO03tIX3NpBINb4jL+X4jSbHgzMVhdtQ+cpiKfTHyk5GZRe0rZlgNYuORIsqxf4G56QugjE9iqlp6EtlsbGGstwtFkYu/iAJtNs7y63jUe8CIx4klCxQpF3CKNybSzmuVvRtr68SrRqFGDKbEG8s5jmb1rB7G3Hn84AVkDaetpLgMW1Jw6neMWV5hhlwxRls+4uepuYsEXJ67wBLZbxLvial7b+cacnJCaG5WVckw6aVt84XqYfS+ocGCLa10yQCe2noE9tLFTRiBudpulF2GpSLfU/tf6wZiMVqfRYWFx57i39fKXBXcKABc7gi/N7EE23MpVFktkWKZ1+FiTt18N+vTia4bMG4cfP9LjbylptVjddJ9RsRbjSfa8EIrAtpGxv0sQTvfjcSiss4YfRwRcTWo1hB2X4tblTseCCeu2499/n7yyz6m0jpzGKtopoX+0WHJKv04g/DVCjBl5Ed6+EV0KEcxKxeGKOUPSJyJ72bvjNOeI65Vi1qoG68Eess4+mrpobhtok5VjzSe/4T8Q/WObPrKkHbmXitoRnxca68HPM4wBouVPHQ+kKZJmLPURKhuoUqo6Dj/T6RmzjJ0xKaNYSoN1DDYj3vxfyBiZlFN6eKRGFmV9LD13/ANx8pamnLQuZapUOWEyx0eobAI7BlHU3A1bX23LTTGZEzNTs2paZJIYWLKVtsR1G0YguryIO1wQd/wCvWbdyQRb23mPk97N+lrQk5x2eQU2rXN120ddgImNHDtwjisukmxQ3AJtcHe/yt9IsLR85qmkpRjeJ1b0WsBlhJDuNughTLdrr5H7TzKsVrUqfiXYe0IPRClSOo3lk99i6ni2mYRNGWTaZqyyxQrss00ydlmlpAAVzYSthH1MZtj3stoPw1Qq15VvReZ2MXd7WgjF4YqbjiGKFQOAZO1BWUqYNbRMvixaViDcRiyvEhxbrAeJw5RrGZQrFCGEonpmipVIccThwUN/KJOMwpRyOh4jpSxQelcHeV8xy0OgH4rXEYjI009C5lGC72oqEgAyfP8rFBwoNwd7yhZkfyZTJkqNVca2JF+T5SWCTb0j3L8veq1lG3n0m2KwpptpP1jrg6KIg0ja3PnB2cZfrTWBuJWu0NxNTXYJyLFaX0E7GOdbdROcklXFtiI7ZPjxUUKeRzKxXoZmxv8kXFE9tPV5MzQ5ZdBUc31AEHYmx8h6jfeMqlK2xEy6ekAcvTcsCLtfk+bb7dev1himmlgR0AHtbiA2wwWogQ3Rr2IYNbSSGS42NjtfqCDGBEsAvnYTLkrfgfjjT7D2COuylgOlzwfeWMTltNVDEIx3BAA+oMH4ZqQ+N1+TC/wCcsVnQ7K23rvFdpD+mxbzvDIqlgoX5b35EAYHGGniX1G6liL/PaMGehWQhWuRzv+USqz3J8yT9zGxTSBRNU9/wdF1XA073g7Osq1pqHxiVuzOO1LoY+IceojFzsJoWqRlaeKjmhS1wRvDvZ3MbMKbn+U/pM7R5aVOtRseYDTY3HPN4nuWbvrmge8fhdenSbMDdT5H5dCLj5yTCYKnVqKaiaa9Pf3vexvwy7m1+N+N5T7PZgKignkbGF8bhA9iGKsPhdeRf7EehjGuS2jCqcVxrwFjT6ny+08JufaKj9oHw7aK/91x8LfI8H0kg7Rqwum46n09JnqWjVNplvNKau7AgHw2+pP7RCzTBGk5HQ7iOGDxRdWfzOkf3f/r7StmuX96hPUbiPU7lCVlU5H/DEnAYjRUB6HY+0cXGvccAbRJ0WexjLkWOuCjf3YS+9Blja5IvpxMZZ7S6yRljjIV2WaaZMyzTTABXqprJHlB2ixIMKYbck+skzHB3XWvPWLpDYfeirgMVoNjwYw0TfccRUAhXKcbY6Dx0lZr0MyRvtBDGYUOCOoi/VplTYxsoiUs2wWoal5Emp32RivXTBeAxZRgD8JjOlW7L5Wiayw5kGK1eAnccSJr0WzT+xZz7KdQ1qNxzFyitrzoYF1+UTszwZRyQPCZN70GBrevYTyHHaxoY7jiMqoLW6TneFcq2oHcGPOV40VE1X3HMIrfRGbHr7IUs/wAJoq3HBkWGxJRgw+cZ8XgxVVvPpFatQKkqeRK2tPaNGCucuWOuFqBlDDrLVMgMCRccW4Bv5xVyDFkNoPHSNVo1fadGSk8dg/OKYRlIWx1l7bXs17cfy/aTPgu/TTe19/8Ab6wfjxZ3Pmaf00Cx9t7ybA5i1Ig2JWw4FzsxX6bCZalrofNJ9v2QN2Q/nPG5KKB5kadzCdTKNOGCAupLBbht7EHqeOJZOaOQtRw+kk3RAGYC3Lad236Ca4rP8MaOkOS2sejeE7DRzfm9xtKt0y6UrwK//ThVw13srAktbi4sLg8zXP8ALO7fUPhP5w/h80NRlo23JBJt+Fd7m3B2t7y5mGFDqVbrxHSm57KK1jta8exAoVmRgymxEf8AKsxFSmGHPX3iHi8MUcqwt5e0u5Jj+6f+E7H94TXF9j82NXO0Ob0takNwYjZpgzScr06R6WpcXXcHiDM7wneJb8Q3EZU8kZcOThWn4FXJMaab3/Dex/eP6VtQBBuDvOaomm4PIMYMlzlaaMHPhVSw89vwj16fOUitPQ7Pi3PNG/bM3NN+VpsyOfJ2COoPuAZSWvoANtF9wW8I9/X5S52bx6V0qU6gDOzMxVtwyuQ23XwkDjcWUi0tv2Tw2otZxffSHAX7Lqt/ejXi5dowrJx6Iez2MVtXiJ1OwF/4EpgW9wbxiqbLELNay08QKdIBFQWAF/jazFiSSSSAouSePSNeAx4qU9X4uCPWC6fEs55TyX9irnWD01dY4P5wdh6pDhh+GO1fA97SZbbncGJzYcoxU7EG0VS09mvDXKeIz4WqHAcdZbIi5kdfxFOnIjMBtGy9rZkyTxpohZZHpk7CaaZYWKGWuG97wzhtwQYr4eoUIIjJgalxqHBi5exlTrsGZjgih1DgwevN43VKYcWPBi1i8KUYjp0lanQ7HfLphrKcXrGknxCEqo2t5xOo1SrAr0jbg8QHAf6y01vopkjXaBeb5do8ajbrA+HrFKgYdI+1qQZLHgiIuOw5Spbp0lanT2Mx3yXFj3gMSrpqHlvNMRhQ9NgfW0Wcox5pv/CeY3Iw0XHWWT5IXklxW0ItaiUJUy5leNNNgOh2MO5zlutNajxCK1RN9+kW05ZshrJI+4dgACOsoZ9lmoa1G45lLs7j9XgY7jiNK73BjeqRk+2KujnNOpodW8jvGwuMRXoYYN4XIep6ogLlT/MFIt6iBc4waFyUYEdbfof1lCji2p1VqKLMjBhvyQeCfI8fOES58h8i1Wmh37Q5O4d33K1GLq3k5JbQx6W391+YAPCswH8t7+isRqv7MFP+KdWwjJVpq1gyVFVrHcFWAI+cSu0/Zt6F61G70ty6cugPJH9tevmPXmGXC97RTHmXSZTo00XxKzp5opBH93UCB/W0G5louXDsG6topayPUhAT7zfDZ7T0gMRxby49YOzXHrUUpTABtvvv7TOpreh7udbLuVY5Ue5Wy6bDe7bm5v8AYeyiX8TniAg2Yi9ugA994jUcWyNpa/zhOnXDDz6TVMpLRlqnT2MmcYRMRT72mQSPr7EdDE5r8QjgcV3VRObX3APKm40nz5B3m+aqjOWp36alI8Qvwdtjx0irn2jX8bN+tf0EOzGZ2PdOf5Yw0kuxJnPcOWDhl5H5x2wucUwgZ2Cngjk7egkw9rRT5EpPaAnaXLtLa14PMVcXU/D5RmzvtGHVkRLDjU3PyUbD6mJzPJ4pPZR56ccTZKjKQykqw3BBsQfQxryztibBK4341qP/ACQfmv0igTPJZU14ENbCGZVgazsrBgSGBBvvYcfOFMlxuioQfha0q5XklRkNciyj4b8sfMDyHn5yJja5i6rs2YI3L34Z0vD20i0We0mBvd16fFLfZ3MddPQfiXaEUphiykXBl3qkKTeOxFw1TQ6N67+xjnTNxFbO8vNN9PTkGHclra6anra30lcfXQz5CT1SLrCR2k7CRxplOcILwjl2K0NY/CZQSbxHhmxJVI5URtfpKuJwvehvMcSnkuO20MfaG8PYCMT2jNScUJr0yhKkbiWcBjCjenUQtnWC1jWo3H3gC1oulxZrlq5HjvQaepTe8E5ngNaa/wAQ3lPIsbsUY7HiMlUeFR57RifJGWk4oSFjH2bx2sd2x3HEqZ3l2htajwmB8HWZHDLyDFL6s2UlkhaOl22ir2jy3R41Gx5h3BY5HTWWAAF2J2AA5JgXNO0CVBoTZerEbn28h9/aNaVIyTVYqAeWhwdSg3vz0h7E5i7LpJsttwOv8x6+0FnFAbCaNibyZniVyZXeuid3v/XtKdVD6Tyob8Egiahj13k7FnRv+GmdalbCOfEgL0yeqXu6X81JuPQn+zOg6drGfPuCxb0qiVUNnpsHX3HIPoRcH0JncsNjxiMOlSi1hUW4bkpyGFv7YII9CI2a2tFKRybtthsMmLJw6B+7N66hrLruDZbDa3U7i+1tjcZnap3wq09Sq6I1mFnVl8LK48/hPqCDwYx9tsHTo4oKihe9pXdQdtWpgGPlex9yIIz/ABKVaWFdSC4pinU89SqoF/fTcejCFwlO0WTBn/ILURnaoiMp2UtZ24+FD8Q9iOsp4QEEg9OflLmHZRzK2MYLrI/ERb2tvFEld65LX9dvz/SSJiDuxO53+v8ApKBaes95AFz/AJo35ngrkm1z+8pBp7e1j5Q2SS1XO8rzarUuTNIEGQr2cysYiuqNsgGp7c2H4R6kkD6+UFAX2ENZDXNJw489/USrrQzHjdvSOl1kATTYBbWsOAOAB6TnedYM03PkdxH04kPT1jgwXm+WmtTJHKi4hU7QzFTitMU8rxRpsrD5+0f8AwYax1nPES2x5EYuzmY6G7tjsfh/aUitPRpzYuU8l6C/aHBB0PmOIvdmapGtDyDxHHEWNopV6Xd4kMPhf84zWnsyKty5YdM1mwO01lxRzzEUipmqwvi6GoQOwINoqpHY70+yVHsbjmNGU4pai2PxDmKqiTYbEFGDLKy9Mdc8kONci4HSAs7y/T41HhPML4auHAYSzWUuCpFwYxrkjPNOKEpDYbdIzZVj+8VVPxA7wHj8KUbTbbpPMsxOiqvkdjFy+LNOWVc7Q+YmgroVbqIgYzCmnUKn5ToIbw3gbOct7xdSjxLL0toTgvi9PwKWIxLBSgJs1iR523/O30ldeklxa2I9L/a0jQQj8Sud/wDoy2jbTe8gfi09WpwZcSSuNp4GnrHaRJcwAkMfP+GOdaXbCsfC93p36OB41Huo1AfwN5xBLSXD4hkZXQ2dGDqfJlIIP1HEE9EMb+3qXxbufwUlC/PWR9yYls/hp2OzbkeTKD+Wph7ER07ZYpay0sSg2rUhceRQnUp9QzsPlOfo3iUdLn7zRbXBEIIQfjW8VvIQgsGYk+I+/wCW36TMyxCxnhM2fiSUcIzbgWHmdh+5+UhvRaZqnpIgJmAxxy3sWHUM9a4PRF/9m/aGP+k8Mi6QhZ7fE7Fj9Nl+0A13pnN1Qk2AJ9oxZP2Waqod2Crfgbt+y/f2mmIwppuykWtx7Ql2fx+ioEJ8LfnKKu9M1P42o2ntjBT7O0UosiJYkbud3Y+rfoLD0iQlEozKeQZ1AcfKJ+fYE370D0Mm562R8W9VxZpkePse6Y7HiN7gBLek5ozkWI5uLR2yrHipT/iAsZGOvRf5WPT5IA53gdDF1HhP5wIHOoEdI/jCh0KNwYm4zBmk5Uj29pW509jMGTnPF+hnyjGCogDHxDYiR5/Q2Qgbqbxaw2LNNw4+ftGqtXDoHG4I/OXitrsRnx8a2vBlF7gTeQYdtrSW8aZReEH47C33EvrNmW4kALim203vJsdhtJuJWQxVTo1Yr30wllmMKML/AAnkRrNUWBXrEXVD2SYu40Mdx8MJr0Rmjf2QYxmAFSmf7XSJddCHseROhYU+GK/aPB2bWvXmTU+yMN/qwn2ezDWopsdxxGIJpUznWGqFSCORHTL8xFVP4hyJEVvotnxa+yFHtNSC1tI6qH/xEj/1g5OYR7TvfEML30qin6arf5oPp8xiMrbb2zetxIEbpLDrK7ixkkE6PcWM3B+khptJC8ANhvME8UzVqm/9cwAJ0cXegaDHhy9P01KQ6/Mqjf4oBcWYe8us1hccjeU6p3+n5xnLc6/gC7qteCmNz7whXayH2t9ZSoi59opgW8Cl2O3wr97j/WXSxPtM7P0dbVT5Kv3J/aWKqaTaKyT7Oh8SlriHOzGZaG7tjsfh9/KMyr4rmc7p7HUDuN465NmAqID+IbEScdeivysOvsin2ny8MNajccxNS+u/lOm4mxU3HO0Rc3wBpOdtjuIZJ12T8bJyXFjT2ezHvE0t8S7GXUoKyMpFwbxFyvGmlU1Djg+0f8A4ZQwPO8mK2hWfH/jra9nPs6whpOVI25HtNckxZR9R+E7H943dqMB3ibfENxEap4Rp4MpS4vo1RSyx2dJwzAgEdd4PzzAColx8Q4g3sxmO3dud+h9Icr1CSAI1apGOlWKzn1ZLGx5EIZFj/F3Z4PEudpMt0/8AcXg8xaw1wdQ5HEUvqzVTWWevY7VnAewm94LwmK1rqJ3GxhBG2mhPaMFLT0AlMkUyBTJFMgqe1aYYQFiaOgw+sq46jcSGtkp6BCSVKhUgjkSuNjaSiJa0bYrkh3yXEiol+o5EzEUA7Mhixk+ONNweh2Ma0YMSw6xk1tGfJLitoUsThjTcqenHtJMuxvd1VP4TsYfzTAd4tx8Q3ijVFm36fpFtcaNU2rjv+zzGuWqOx5LMf8xt9rTxJCTcyZI85zJ3Mq4nmTnpKdZt4ATLN1Erpfzk6GAG97SNlv1k0jq+kAPKb/hP+4lZxY2lhKRIv16SKuPqOYJge4l/CB/W3+8ip7KT57TK5uQPQfeZXNrKOnPvIAaOwiXNf2T83lvNcJYyh2BrAVaiH8SBh7q3H0Y/SNuYYbUIa2hkU5e0JEt5VjzSqqRwdm9vOa4ulpMpou5MztOWdWWskf7OkV31hSOOZVznAipTt+LkQV2dx9x3bHcce0YlNzHpqkc25rFZzSqhVip5FxGnsfmN17tjuOPaUu02E0vrUbHY+8DYKqUsyncG8T+NG5pZo/7ydGrML3PQRHz7AaX1geFvsYy4THiqmoc9feS18IHplW+XvHUuSMUU8d9iIlQoQwNiI5ZPi1qqG6jYxMxmGZXKnpLGVYs0nBv4TsRFS+LNeaf8k7Q5ZggdCvntETEYY03ZT57R3eqpQEdYAzbC60LDlfvGVO0ZcN8K0wLl+J0Pbo0Z0faJjAjfreNGX4oFAYQ9dBmnb2D1MkUyJTNwZczkymesLiaKZuDAARj8NbcSojRgr07iAcTS0tK1OxkVxZInEYMgxw3RufwxdpnabioVIYciJl6ZspK5H7CG17xY7UYMI2teDz73h3L8QHQOOvPvKvaYjuHv/Bb31rH62Yk3DaEtZYSQJJ0kiyRuIPqneEH4gyoZDAnT6z1nI5EjpNLqv5wAhTESVCDuZ49BT6e0geiy8bj7yQJamKUDbcyk9Yk7zY0x6j3mmgdN5AEqG12+Q95F7yRl43B54vtufPr1+c1IgAQ7P4nu8TTfpqCn2fwG/wDiv8p1F12nHZ1jJ8X3tCnU6so1fzDwt/mBkySCM2wvWL2ixMeMbSuIqY6hYymSdrZr+Nl41p+GVadQowccjeP2V4talMMObb+858x6QnkOYmm+knwt+cVD0zV8nFzna8oZsRhRUR0PyiJiKRRih5E6Hh2uSfOAO1WX3XvF5HQRlztbMnx8vB8X7AOSY3RUCk+FtvnHyml19Jy9PiHpHjIcz1poJ8Q/KRFei2fG2uSM7Q5cHXUo8Q+8TW8p0HE1bbDeKee5cUOscHn0hc+wwZf1Z7k2N/8AzY+0P0aWx9YiM5RlI5BjfgMeHQEeW8mK60LzTqtoXM9wuhzbg/nKeGxRUWjFmNIOpHXke8U32MhrTJmuS7DSmbqZ7MjTMbAyRTMmQA3BlLHYe4mTIACF8JtJnHhmTIivJswt8WEMkxxRgp+Ewz2jF8Ox53Q/LWsyZGQLzJdCcsnpzJkuZjesfCYPcTJkhgYsuUjcTJkEBvb1mjlrTJkkCu6k7Ekny6T3TbYcn+r/ALTJkgCO/SamZMgBgj32DxN6T07/AAMGH8rj91b6zJkleSRndYBzXC9ZkyWZKFyqtjInmTJlr8jq4abhbG7IsYaic+JdjL2L3FjvtaZMjp8HOypK3oRMwwppudtibgzzDYhkYMvT8pkyJf5HQx9wtjngq6uocHeb4qmHUqeDMmR68HOv609HPsxw5Ryv09pYy3F6HC9DzPJkV7NHmew+iajBOYZZ4z67zJkazLtrwf/Z" id="image"
+				alt="Error Loading Image"/>
+			<small id="caption">
+				Barack Hussein Obama II is an American politician who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, he was the first African-American president of the United States.
+			</small>
+		</div>
+
+		<div id="tribute-data">
+
+			<!--Achievements and other
+				details of the person-->
+			<h1 class="title-APJ">
+				About the Legend
+			</h1>
+
+			
+
+<p>
+    Obama was born in Honolulu, Hawaii. After graduating from Columbia University in 1983, he worked as a community organizer in Chicago. In 1988, he enrolled in Harvard Law School, where he was the first black president of the Harvard Law Review. After graduating, he became a civil rights attorney and an academic, teaching constitutional law at the University of Chicago Law School from 1992 to 2004. Turning to elective politics, he represented the 13th district in the Illinois Senate from 1997 until 2004, when he ran for the U.S. Senate. Obama received national attention in 2004 with his March Senate primary win, his well-received July Democratic National Convention keynote address, and his landslide November election to the Senate. In 2008, a year after beginning his campaign, and after a close primary campaign against Hillary Clinton, he was nominated by the Democratic Party for president. Obama was elected over Republican nominee John McCain in the general election and was inaugurated alongside his running mate Joe Biden, on January 20, 2009. Nine months later, he was named the 2009 Nobel Peace Prize laureate, a decision that drew a mixture of praise and criticism.
+
+    Obama signed many landmark bills into law during his first two years in office. The main reforms include: the Affordable Care Act (ACA or "Obamacare"), although without a public health insurance option; the Dodd–Frank Wall Street Reform and Consumer Protection Act; and the Don't Ask, Don't Tell Repeal Act of 2010. The American Recovery and Reinvestment Act and Tax Relief, Unemployment Insurance Reauthorization, and Job Creation Act served as economic stimuli amidst the Great Recession. After a lengthy debate over the national debt limit, he signed the Budget Control and the American Taxpayer Relief Acts. In foreign policy, he increased U.S. troop levels in Afghanistan, reduced nuclear weapons with the United States–Russia New START treaty, and ended military involvement in the Iraq War. In 2011, Obama controversially ordered the drone-strike killing of Anwar al-Awlaki, a US citizen and suspected al-Qaeda operative. He ordered military involvement in Libya for the implementation of the UN Security Council Resolution 1973, contributing to the overthrow of Muammar Gaddafi. He also ordered the military operation that resulted in the death of Osama bin Laden.
+				<br><br><br>
+			</p>
+
+
+		</div>
+		<br>
+		 For more information,
+		check out
+		<a id="tribute-link" href="#">
+			<b>Barack obama</b> on Wikipedia
+			
+		</small>
+	</main>
+</body>
+
+</html>
